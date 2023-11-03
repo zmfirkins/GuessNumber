@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Number Results</title>
+</head>
+<body>
+    <h1>Guess the Number Results</h1>
+    <p th:if="${game.result}">Result: <span th:text="${game.result}"></span></p>
+    
+    <p>Would you like to play again?</p>
+    <a href="/playagame">Play Again</a>
+</body>
+</html>
+
+
