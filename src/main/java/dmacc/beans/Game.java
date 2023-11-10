@@ -1,6 +1,6 @@
 package dmacc.beans;
-import java.util.Random;
 
+import java.util.Random;
 public class Game {
     private int secretNumber;
     private int guess;
